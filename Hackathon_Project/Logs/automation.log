@@ -1,0 +1,54 @@
+15:38:40.471 [main] INFO  - ---- TestCase_01_EnteringRequiredValuesInHomePage Started ----
+15:38:42.304 [main] INFO  - ---- TestCase_01_EnteringRequiredValuesInHomePage Ended ----
+15:38:42.462 [main] INFO  - ---- TestCase_02_DisplayingTheEMIPaymentTable Started ----
+15:38:44.086 [main] INFO  - ---- TestCase_02_DisplayingTheEMIPaymentTable Ended ----
+15:38:52.817 [main] INFO  - ---- TestCase_03_StoringTheYearTableInExcel Started ----
+15:38:57.772 [main] INFO  - ---- TestCase_03_StoringTheYearTableInExcel Ended ----
+15:39:07.024 [main] INFO  - -----TestCase_04_EMICalculator_ValidatingLoanAmountTextBoxAndSlider  started.------
+15:39:07.149 [main] INFO  - TestCase_04_EMICalculator_ValidatingLoanAmountTextBoxAndSlider ended.
+15:39:07.312 [main] INFO  - TestCase_05_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider started.
+15:39:08.237 [main] INFO  - TestCase_05_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider started.
+15:39:08.388 [main] INFO  - TestCase_06_EMICalculator_ValidatingInterestRateTextBoxAndSlider started.
+15:39:08.467 [main] INFO  - TestCase_06_EMICalculator_ValidatingInterestRateTextBoxAndSlider ended.
+15:39:08.627 [main] INFO  - TestCase_07_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider started
+15:39:09.488 [main] INFO  - TestCase_07_EMICalculator_ScaleChangeForInterestRateTextBoxAndSlider ended
+15:39:09.655 [main] INFO  - TestCase_08_EMICalculator_ValidatingLoanTenureTextBoxAndSlider started.
+15:39:09.750 [main] INFO  - TestCase_08_EMICalculator_ValidatingLoanTenureTextBoxAndSlider ended.
+15:39:09.901 [main] INFO  - TestCase_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider started
+15:39:10.796 [main] INFO  - TestCase_09_EMICalculator_ScaleChangeForLoanTenureTextBoxAndSlider ended
+15:39:10.943 [main] INFO  - TestCase_10_EMICalculator_ValidatingFeesAndChargesTextBoxAndSlider started.
+15:39:11.034 [main] INFO  - TestCase_10_EMICalculator_ValidatingFeesAndChargesTextBoxAndSlider ended.
+15:39:11.162 [main] INFO  - TestCase_11_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider started
+15:39:12.135 [main] INFO  - TestCase_11_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider ended
+15:39:12.270 [main] INFO  - TestCase_12_EMICalculator_ValidationForYearAndMonthOption started.
+15:39:12.394 [main] INFO  - TestCase_12_EMICalculator_ValidationForYearAndMonthOption ended.
+15:39:21.459 [main] INFO  - ---- TestCase_13_LoanAmtCalculator_ValidatingEMITextBoxAndSlider Started ----
+15:39:21.529 [main] INFO  - ---- TestCase_13_LoanAmtCalculator_ValidatingEMITextBoxAndSlider Ended ----
+15:39:21.690 [main] INFO  - ---- TestCase_14_LoanAmtCalculator_ValidatingInterestRateTextBoxAndSlider Started ----
+15:39:21.767 [main] INFO  - ---- TestCase_14_LoanAmtCalculator_ValidatingInterestRateTextBoxAndSlider Ended ----
+15:39:21.925 [main] INFO  - ---- TestCase_15_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider Started ----
+15:39:22.830 [main] INFO  - ---- TestCase_15_LoanAmtCalculator_ScaleChangeForInterestRateTextBoxAndSlider Ended ----
+15:39:22.979 [main] INFO  - ---- TestCase_16_LoanAmtCalculator_ValidatingLoanTenureTextBoxAndSlider Started ----
+15:39:23.069 [main] INFO  - ---- TestCase_16_LoanAmtCalculator_ValidatingLoanTenureTextBoxAndSlider Ended ----
+15:39:23.220 [main] INFO  - ---- TestCase_17_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider Started ----
+15:39:24.087 [main] INFO  - ---- TestCase_17_LoanAmtCalculator_ScaleChangeForLoanTenureTextBoxAndSlider Ended ----
+15:39:24.251 [main] INFO  - ---- TestCase_18_LoanAmtCalculator_ValidatingFeesAndChargesTextBoxAndSlider Started ----
+15:39:24.327 [main] INFO  - ---- TestCase_18_LoanAmtCalculator_ValidatingFeesAndChargesTextBoxAndSlider Ended ----
+15:39:24.480 [main] INFO  - ---- TestCase_19_LoanAmtCalculator_ValidationForYearAndMonthOption Started ----
+15:39:24.541 [main] INFO  - ---- TestCase_19_LoanAmtCalculator_ValidationForYearAndMonthOption Ended ----
+15:39:24.707 [main] INFO  - ---- TestCase_20_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider Started ----
+15:39:25.771 [main] INFO  - ---- TestCase_20_LoanAmtCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider Ended ----
+15:39:34.635 [main] INFO  - ---- TestCase_21_LoanTenureCalculator_ValidatingLoanAmountTextBoxAndSlider Started ----
+15:39:34.717 [main] INFO  - ---- TestCase_21_LoanTenureCalculator_ValidatingLoanAmountTextBoxAndSlider Ended ----
+15:39:34.854 [main] INFO  - ---- TestCase_22_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider Started ----
+15:39:35.809 [main] INFO  - ---- TestCase_22_LoanTenureCalculator_ScaleChangeForLoanAmountTextBoxAndSlider Ended ----
+15:39:35.969 [main] INFO  - ---- TestCase_23_LoanTenureCalculator_ValidatingEMITextBoxAndSlider Started ----
+15:39:36.042 [main] INFO  - ---- TestCase_23_LoanTenureCalculator_ValidatingEMITextBoxAndSlider Ended ----
+15:39:36.195 [main] INFO  - ---- TestCase_24_LoanTenureCalculator_ValidatingInterestRateTextBoxAndSlider Started ----
+15:39:36.285 [main] INFO  - ---- TestCase_24_LoanTenureCalculator_ValidatingInterestRateTextBoxAndSlider Ended ----
+15:39:36.450 [main] INFO  - ---- TestCase_25_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider Started ----
+15:39:37.349 [main] INFO  - ---- TestCase_25_LoanTenureCalculator_ScaleChangeForInterestRateTextBoxAndSlider Ended ----
+15:39:37.512 [main] INFO  - ---- TestCase_26_LoanTenureCalculator_ValidatingFeesAndChargesTextBoxAndSlider Started ----
+15:39:37.582 [main] INFO  - ---- TestCase_26_LoanTenureCalculator_ValidatingFeesAndChargesTextBoxAndSlider Ended ----
+15:39:37.718 [main] INFO  - ---- TestCase_27_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider Started ----
+15:39:38.596 [main] INFO  - ---- TestCase_27_LoanTenureCalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider Ended ----
