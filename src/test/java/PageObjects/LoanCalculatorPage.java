@@ -159,6 +159,7 @@ public class LoanCalculatorPage extends BasePage{
 	//Sliding the Loan Tenure Slider
 	public void moveLoanTenureSlider(int x) {
 		act.dragAndDropBy(LoanTenureSlider, x, 0).build().perform();
+		System.out.println(LoanTenureSlider.getLocation().getX());
 	}
 	//Returning the value of Loan Tenure Text Box Web Element
 	public String getLoanTenureTextBoxValue() {

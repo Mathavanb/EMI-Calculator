@@ -23,6 +23,7 @@ public class EMIcalcPage extends BaseClass
 		
 		//Waiting for the main menu to load
 		wait.waitForMainMenu(getDriver());
+		
 		//Navigating to the respective page
 		LoanCalculatorPageObj.navigatorForEMICalc();
 
@@ -32,8 +33,10 @@ public class EMIcalcPage extends BaseClass
 	public void the_loan_amount_textbox_and_slider_is_visible_and_displayed_to_the_user() {
 		
 		logger.info("-----TestCase_04_EMICalculator_ValidatingLoanAmountTextBoxAndSlider  started.------");
+		
 		//Waiting for all the fields to be visible
 		wait.waitForTheTextBoxAndSlider(getDriver());
+		
 		//Validating if Loan Amount Text Box is visible
 		if(LoanCalculatorPageObj.getLoanAmtTextBox().isDisplayed()) {
 			myAssert.pass();
@@ -86,9 +89,6 @@ public class EMIcalcPage extends BaseClass
 		
 		//Moving the Slider to Initial Position
 		LoanCalculatorPageObj.moveLoanAmtSlider(0);
-		
-		/*//Validating if the value passed to the text box is same as it is showing in the slider
-		myAssert.assertIt(LoanCalculatorPageObj.getLoanAmtTextBoxValue(), "10,00,000", "The initial value of the loan amount textbox is not 10,00,000");*/
 		
 		//Moving the slider to Desired Position
 		LoanCalculatorPageObj.moveLoanAmtSlider(130);
@@ -237,11 +237,6 @@ public class EMIcalcPage extends BaseClass
 		        //Moving the Slider to Initial Position
 				LoanCalculatorPageObj.moveLoanTenureSlider(0);
 				
-				/*//Validating if the value passed to the text box is same as it is showing in the slider
-				myAssert.assertIt(LoanCalculatorPageObj.getLoanTenureTextBoxValue(), "5", "The initial value of"
-																+ " the loan tenure textbox is not"
-																+ " 5");*/
-				
 				//Moving the slider to Desired Position
 				LoanCalculatorPageObj.moveLoanTenureSlider(105);
 				
@@ -313,9 +308,6 @@ public class EMIcalcPage extends BaseClass
 		logger.info("TestCase_11_EMICalculator_ScaleChangeForFeesAndChargesTextBoxAndSlider started");
 		//Moving the Slider to Initial Position
 		LoanCalculatorPageObj.moveFeesAndChargesSlider(0);
-		
-		/*//Validating if the value passed to the text box is same as it is showing in the slider
-		myAssert.assertIt(LoanCalculatorPageObj.getFeesAndChargesTextBoxValue(), "10,000", "The initial value of the fees and charges textbox is not 10,000");*/
 		
 		//Moving the slider to Desired Position
 		LoanCalculatorPageObj.moveFeesAndChargesSlider(97);

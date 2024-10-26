@@ -31,7 +31,7 @@ public class EnteringValuesForCarLoan extends BaseClass{
 	@Then("enter the values with excel row {string}")
 	public void enter_the_values_with_excel_row(String rows) {
 	    // Write code here that turns the phrase above into concrete actions
-		 datamap=DataReader.data("C:\\Users\\2318839\\eclipse-workspace\\EMI_Calculator_Cucumber_Bold_Vision\\Hackathon_Project\\TestData\\CarLoanData.xlsx", "Sheet1");
+		 datamap=DataReader.data("C:\\Users\\2361432\\Downloads\\Hackathon_Project_calculate_interest_amount_for_current_year 1\\Hackathon_Project\\TestData\\CarLoanData.xlsx", "Sheet1");
  
 	        int index=Integer.parseInt(rows)-1;
 	        String loanAmount= datamap.get(index).get("loan_amount");

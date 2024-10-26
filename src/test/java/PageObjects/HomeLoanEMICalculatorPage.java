@@ -48,7 +48,8 @@ public class HomeLoanEMICalculatorPage extends BasePage
 		String[][] datas = new String[rows.size()][cols.size()];
 		for(int i = 0; i < rows.size(); i++) {
 			for(int j = 0; j < cols.size(); j++) {
-				datas[i][j] = driver.findElement(By.xpath("//table[@class = 'noextras']/tbody/tr[@class = 'row no-margin yearlypaymentdetails']["+(i+1)+"]/td["+(j+1)+"]")).getText();
+				datas[i][j] = driver.findElement(By.xpath("//table[@class = 'noextras']/tbody/tr[@class = 'row no-margin yearlypaymentdetails']"
+								+ "["+(i+1)+"]/td["+(j+1)+"]")).getText();
 			}
 		}
 		return datas;

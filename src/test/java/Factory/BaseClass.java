@@ -5,8 +5,6 @@ import java.io.IOException;
 import java.net.URL;
 import java.time.Duration;
 import java.util.Properties;
-
-import org.apache.commons.lang3.RandomStringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.Platform;
@@ -26,6 +24,7 @@ public class BaseClass {
 	{
 		if(getProperties().getProperty("execution_environment").equalsIgnoreCase("remote"))
 		{
+			//for different platform
 			DesiredCapabilities capabilities = new DesiredCapabilities();
 			
 			
@@ -91,28 +90,6 @@ public class BaseClass {
 	{		 
 		logger=LogManager.getLogger(); //Log4j
 		return logger;
-	}
-	
-	public static String randomeString()
-	{
-		String generatedString=RandomStringUtils.randomAlphabetic(5);
-		return generatedString;
-	}
-	
-	
-	public static String randomeNumber()
-	{
-		String generatedString=RandomStringUtils.randomNumeric(10);
-		return generatedString;
-	}
-	
-		
-	public static String randomAlphaNumeric()
-	{
-	String str=RandomStringUtils.randomAlphabetic(5);
-	 String num=RandomStringUtils.randomNumeric(10);
-	return str+num;
-	}
-	
+	}	
 	
 }

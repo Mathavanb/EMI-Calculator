@@ -1,13 +1,14 @@
-Name - K.Kavin
+Name - M.Kavin
 Employee ID - 2318839
 Role - CSD Trainee
 Cohort Code - CSDQEA24QE005
 
-Find the Interest Amount for current year
+Find the Interest Amount for current year:
+
 Problem Statement : Find the Interest Amount for current year
-1. Buying a  car of 15 Lac
-2. Interest rate of 9.5%
-3. Tenure should be 1 year.
+	1. Buying a  car of 15 Lac
+	2. Interest rate of 9.5%
+	3. Tenure should be 1 year.
 Display the interest amount & principal amount of first month.
 (Suggested Site: emicalculator.net  / HDFCbank.com etc. however you are free to use any other legitimate site)
 

@@ -2,17 +2,14 @@ package StepDefenitions;
 
 import java.io.IOException;
 import java.util.Properties;
-
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-
 import Factory.BaseClass;
 import io.cucumber.java.After;
 import io.cucumber.java.AfterStep;
 import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
-
 
 public class Hooks {
 
@@ -26,9 +23,7 @@ public class Hooks {
     	    	
     	p=BaseClass.getProperties();
     	driver.get(p.getProperty("appURL"));
-    	driver.manage().window().maximize();
-    
-    			
+    	driver.manage().window().maximize();			
 	}
 		
     
@@ -42,12 +37,6 @@ public class Hooks {
 
     @AfterStep
     public void addScreenshot(Scenario scenario) {
-        
-       
-        	
-        	/*TakesScreenshot ts=(TakesScreenshot) driver;
-        	byte[] screenshot=ts.getScreenshotAs(OutputType.BYTES);
-        	scenario.attach(screenshot, "image/png",scenario.getName());*/
         	            
         	TakesScreenshot ts=(TakesScreenshot)driver;
     		//storing screenshot as a byte
