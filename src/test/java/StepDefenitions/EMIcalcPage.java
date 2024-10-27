@@ -94,15 +94,15 @@ public class EMIcalcPage extends BaseClass
 		LoanCalculatorPageObj.moveLoanAmtSlider(130);
 		
 		//Validating if the value passed to the text box is same as it is showing in the slider
-		if(LoanCalculatorPageObj.getLoanAmtTextBoxValue().equals("50,00,000")) {
-			myAssert.pass();
-			logger.info("TestCase_05_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider started.");
-		}
-		else {
-			logger.error("TestCase_05_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider got failed, Scale check for Loan Amount Text Box and slider was not successful.");
-			System.out.println("TestCase_03_03_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider got failed, Scale check for Loan Amount Text Box and Slider was unsuccessful.");
-			myAssert.fail();
-		}
+		String actualValue = LoanCalculatorPageObj.getLoanAmtTextBoxValue().trim();
+		    logger.info("Actual value in text box: " + actualValue);
+		    if (actualValue.equals("50,00,000")) {
+		        myAssert.pass();
+		        logger.info("TestCase_05_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider passed.");
+		    } else {
+		        logger.error("Expected value: 50,00,000, but found: " + actualValue);
+		        myAssert.fail();
+		   }
 		
 	}
 	/*-------------------------------------------------------------------------------------------------------------*/
