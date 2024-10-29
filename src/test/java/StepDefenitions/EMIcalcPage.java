@@ -81,30 +81,35 @@ public class EMIcalcPage extends BaseClass
 	}
 
 	@When("the scale change done by user reflects correctly in LoanAmount Textbox")
-	public void the_scale_change_done_by_user_reflects_correctly_in_loan_amount_textbox() 
-	{
-		logger.info("TestCase_05_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider started.");
-		//Waiting for all the fields to be visible
-		wait.waitForTheTextBoxAndSlider(getDriver());
-		
-		//Moving the Slider to Initial Position
-		LoanCalculatorPageObj.moveLoanAmtSlider(0);
-		
-		//Moving the slider to Desired Position
-		LoanCalculatorPageObj.moveLoanAmtSlider(130);
-		
-		//Validating if the value passed to the text box is same as it is showing in the slider
-		String actualValue = LoanCalculatorPageObj.getLoanAmtTextBoxValue().trim();
-		    logger.info("Actual value in text box: " + actualValue);
-		    if (actualValue.equals("50,00,000")) {
-		        myAssert.pass();
-		        logger.info("TestCase_05_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider passed.");
-		    } else {
-		        logger.error("Expected value: 50,00,000, but found: " + actualValue);
-		        myAssert.fail();
-		   }
-		
+	@When("the scale change done by user reflects correctly in LoanAmount Textbox")
+	public void the_scale_change_done_by_user_reflects_correctly_in_loan_amount_textbox() {
+	    logger.info("TestCase_05_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider started.");
+	    
+	    // Waiting for all the fields to be visible
+	    wait.waitForTheTextBoxAndSlider(getDriver());
+	    
+	    // Moving the Slider to Initial Position
+	    LoanCalculatorPageObj.moveLoanAmtSlider(0);
+	    logger.info("Slider moved to initial position.");
+	    
+	    // Moving the slider to Desired Position
+	    LoanCalculatorPageObj.moveLoanAmtSlider(130);
+	    logger.info("Slider moved to position 130.");
+	    
+	    // Validating if the value passed to the text box is same as it is showing in the slider
+	    String actualValue = LoanCalculatorPageObj.getLoanAmtTextBoxValue().trim();
+	    logger.info("Actual value in text box: " + actualValue);
+	    
+	    String expectedValue = "50,00,000";
+	    if (actualValue.equals(expectedValue)) {
+	        myAssert.pass();
+	        logger.info("TestCase_05_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider passed.");
+	    } else {
+	        logger.error("Expected value: " + expectedValue + ", but found: " + actualValue);
+	        myAssert.fail();
+	    }
 	}
+
 	/*-------------------------------------------------------------------------------------------------------------*/
 	@When("the InterestRate Textbox and Slider is visible and enabled to the user")
 	public void the_interest_rate_textbox_and_slider_is_visible_and_displayed_to_the_user()
