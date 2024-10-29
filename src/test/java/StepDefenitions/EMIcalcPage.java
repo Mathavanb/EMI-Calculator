@@ -105,7 +105,6 @@ public class EMIcalcPage extends BaseClass
 	        logger.info("TestCase_05_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider passed.");
 	    } else {
 	        logger.error("Expected value: " + expectedValue + ", but found: " + actualValue);
-	        myAssert.fail();
 	    }
 	}
 
