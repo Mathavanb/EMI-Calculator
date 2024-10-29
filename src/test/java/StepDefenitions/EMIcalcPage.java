@@ -81,7 +81,6 @@ public class EMIcalcPage extends BaseClass
 	}
 
 	@When("the scale change done by user reflects correctly in LoanAmount Textbox")
-	@When("the scale change done by user reflects correctly in LoanAmount Textbox")
 	public void the_scale_change_done_by_user_reflects_correctly_in_loan_amount_textbox() {
 	    logger.info("TestCase_05_EMICalculator_ScaleChangeForLoanAmountTextBoxAndSlider started.");
 	    
