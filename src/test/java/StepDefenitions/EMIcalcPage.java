@@ -109,6 +109,7 @@ public class EMIcalcPage extends BaseClass
 	    }
 	}
 
+
 	/*-------------------------------------------------------------------------------------------------------------*/
 	@When("the InterestRate Textbox and Slider is visible and enabled to the user")
 	public void the_interest_rate_textbox_and_slider_is_visible_and_displayed_to_the_user()
