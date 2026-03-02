@@ -1,0 +1,13 @@
+# Ignore HTML, CSS, JS in language detection
+*.html linguist-detectable=false
+*.css linguist-detectable=false
+*.js linguist-detectable=false
+
+# Ignore report folders
+reports/* linguist-detectable=false
+test-output/* linguist-detectable=false
+public/* linguist-detectable=false
+
+# Treat Java as primary language
+src/test/java linguist-language=Java
+src/main/java linguist-language=Java
