@@ -19,13 +19,17 @@ All scenarios are automated using Selenium WebDriver, Cucumber BDD, Apache POI, 
 **Application Under Test:**  
 🌐 https://emicalculator.net/
 
+<h2 align="center">🧪 Tech Stack</h2>
+
 ## 🧪 Tech Stack
-https://img.shields.io/badge/Java-17-orange?logo=java
-https://img.shields.io/badge/Selenium-WebDriver-43B02A?logo=selenium
-https://img.shields.io/badge/Cucumber-BDD-23D96C?logo=cucumber
-https://img.shields.io/badge/JUnit5-Testing-25A162?logo=junit5
-https://img.shields.io/badge/Maven-Build-C71A36?logo=apache-maven
-https://img.shields.io/badge/Apache%20POI-Excel-blue
+<p align="center">
+  <img src="https://img.shields.io/badge/Java-17-orange?logo=java" />
+  <img src="https://img.shields.io/badge/Selenium-WebDriver-43B02A?logo=selenium" />
+  <img src="https://img.shields.io/badge/Cucumber-BDD-23D96C?logo=cucumber" />
+  <img src="https://img.shields.io/badge/JUnit5-Testing-25A162?logo=junit5" />
+  <img src="https://img.shields.io/badge/Maven-Build-C71A36?logo=apache-maven" />
+  <img src="https://img.shields.io/badge/Apache%20POI-Excel-blue" />
+</p>
 
 ## 🎯 Hackathon Problem Statement
 ### Problem:
