@@ -19,7 +19,6 @@ All scenarios are automated using Selenium WebDriver, Cucumber BDD, Apache POI, 
 **Application Under Test:**  
 🌐 https://emicalculator.net/
 
-<h2 align="center">🧪 Tech Stack</h2>
 
 ## 🧪 Tech Stack
 <p align="center">
