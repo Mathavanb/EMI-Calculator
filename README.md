@@ -15,10 +15,7 @@ This automation framework is designed to validate Loan EMI Calculators using:
 - Excel Report Generation
 
 All scenarios are automated using Selenium WebDriver, Cucumber BDD, Apache POI, and Fluent Wait utilities, with detailed logging and reporting.
-
-**Application Under Test:**  
-🌐 https://emicalculator.net/
-
+<br>
 
 ## 🧪 Tech Stack
 <p align="center">
@@ -29,6 +26,8 @@ All scenarios are automated using Selenium WebDriver, Cucumber BDD, Apache POI, 
   <img src="https://img.shields.io/badge/Maven-Build-C71A36?logo=apache-maven" />
   <img src="https://img.shields.io/badge/Apache%20POI-Excel-blue" />
 </p>
+
+<br>
 
 ## 🎯 Hackathon Problem Statement
 ### Problem:
